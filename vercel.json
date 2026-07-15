@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/index.java": {
-      "runtime": "vercel-spring@0.1.4",
+      "runtime": "vercel-spring@0.1.6",
       "memory": 1024,
       "maxDuration": 10
     }
