@@ -1,4 +1,12 @@
 {
-  "buildCommand": "vercel build",
-  "outputDirectory": "."
+  "functions": {
+    "api/index.java": {
+      "runtime": "vercel-spring@0.1.0",
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.java" }
+  ]
 }
